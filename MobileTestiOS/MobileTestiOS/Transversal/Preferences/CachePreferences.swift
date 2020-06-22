@@ -14,7 +14,7 @@ class CachePreferences : ICache{
         UserDefaults.standard.set(try? PropertyListEncoder().encode(dataPostObject), forKey:key)
     }
     
-    func getObject(key: String) -> DataPost {
+    func getObject(key: String) -> DataPost? {
         var dataPost: DataPost!
 
         if let data = UserDefaults.standard.object(forKey: key) as? Foundation.Data {

@@ -10,5 +10,5 @@ import Foundation
 
 protocol ICache{
     func setObject(key : String, dataPostObject : DataPost)
-    func getObject(key : String) -> DataPost
+    func getObject(key : String) -> DataPost?
 }

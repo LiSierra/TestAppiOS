@@ -26,6 +26,6 @@ class PostsViewModel {
     
     func numberOfItemsInTable(section: Int) -> Int {
         let num = CacheFactory.getIntance().createCache().getObject(key: "collection")
-        return num.collection?.items?.count ?? 0
+        return num?.collection?.items?.count ?? 0
     }
 }
