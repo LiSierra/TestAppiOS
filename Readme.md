@@ -1,6 +1,6 @@
 # TestAppiOS
 
-_Es un programa que contiene la implementación de la API Resta de la Nasa._
+_Es un programa que contiene la implementación de la API Rest de la Nasa._
 
 ## Comenzando 🚀
 
@@ -9,6 +9,8 @@ _Luego ingrese a la terminal e ingrese a la carpeta del proyecto con el comando 
 
 
 ### Pre-requisitos 📋
+
+* Sistema Operativo versión mínima macOSMojave
 
 _Software requerido:_
 
